@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #0f1111;
+        }
+        .nav_bar {
+            /* position: fixed; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            width: 100%;
+            background-color: #0f1111;
+            color: #c3c3c3;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-style: inherit;
+            margin-right: 120px;
+            color: #ffd900;
+
+
+        }
+
+        ul {
+            display: flex;
+            gap: 20px;
+            letter-spacing: 2px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li:hover {
+            color: rgb(142, 130, 130);
+        }
+
+        .heading {
+            text-align: center;
+            font-size: 5rem;
+            color: #ffd900;
+        }
+
+        a {
+            text-decoration: none;
+            color: #c3c3c3;
+        }
+
+        .project-box {
+            width: 380px;
+            height: 600px;
+            border-radius: 2rem;
+            background-color: #ffd900;
+            color: #0f1111;
+            margin: 20px;
+        }
+        .project-box h3{
+
+            font-size: 1.2rem;
+            margin-top: 0px;
+        }
+
+        .project-box p {
+            font-size: 1rem;
+            font-style: bolder;
+            text-align: center;
+        }
+
+        #box4 img {
+            width: 300px;
+            height: 300px;
+            border-radius: 2rem;
+            margin-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #box5 img {
+            width: 300px;
+            height: 300px;
+            border-radius: 2rem;
+            margin-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #box6 img {
+            width: 300px;
+            height: 300px;
+            border-radius: 2rem;
+            margin-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .project-container {
+            display: flex;
+            text-align: center;
+            padding-top: 20px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav_bar">
+            <div class="logo">Saurabh Kumar</div>
+            <ul>
+                <a href="index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="about.html">
+                    <li>ABOUT</li>
+                </a>
+                <a href="services.html">
+                    <li>SERVICES</li>
+                </a>
+                <a href="project.html">
+                    <li>PROJECTS</li>
+                </a>
+                <a href="contact.html"><li>CONTACT</li></a>
+            </ul>
+        </div>
+    </header>
+    <div>
+        <h2 class="heading">Projects</h2>
+    </div>
+
+    <div class="project-container">
+        <div class="project-box" id="box4"><img src="Project1.jpeg">
+            <h3>MOONFLIX</h3>
+            <br>
+            <p>I developed a Moon Flix movie app using the MERN stack, showcasing my full-stack development skills. This
+                project includes user authentication, a movie database, and a sleek user interface similar to the
+                original platform. By implementing key features of the MERN stack, I honed my skills in MongoDB,
+                Express.js, React.js, and Node.js, demonstrating my ability to create dynamic and interactive web
+                applications.
+                <br><b>Skills: React.js · Redux · Express.js · MongoDB · Tailwind CSS</b>
+            </p>
+
+        </div>
+        <div class="project-box" id="box5"><img src="project2.jpeg">
+            <H3>REAL ESTATE</H3>
+            <br>
+            <p>Users can search for properties based on location, price range, property type,
+                and more.Users can save properties as favorites for easy access and
+                comparison.Detailed information about each property, including photos, specifications,
+                pricing, and contact details.User registration and authentication for saving favorite properties,
+                leaving reviews, and more.The application is responsive and works seamlessly on
+                desktop and mobile devices.
+                <br> <b>Skills: Tailwind CSS · React.js · Express.js · MongoDB · Redux</b>
+            </p>
+
+        </div>
+        <div class="project-box" id="box6"><img src="project3.jpeg">
+            <h3>WEATHER APP</h3>
+            <br>
+            <p>An online web application to get weather updates with a responsive front-end.
+                User can find temperature, humidity, pressure, time, date and wind speed of
+                any city on globe by searching the name
+                <br><br><br>
+                <br> <b>Skills: Fetch Api · React.js · React Hooks · CSS ·
+                    HTML5</b>
+            </p>
+
+        </div>
+    </div>
+</body>
+
+</html>
